@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#67D0FF"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_baseline_video_call_24"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:fontFamily="serif"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/let_s_get_started"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginHorizontal="80dp"
+        android:hint="User ID"
+        android:paddingHorizontal="12dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/user_id_edit_text"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/start"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/start_btn"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+
+
+</LinearLayout>
